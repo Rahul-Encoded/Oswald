@@ -1,0 +1,20 @@
+[project]
+title = "Depression Session"
+version = "0.1.0"
+port = 8501
+slug = "preswald-599451"
+entrypoint = "hello.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/spidey.jpg"
+favicon = "images/spidey.ico"
+primaryColor = "#F89613"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
